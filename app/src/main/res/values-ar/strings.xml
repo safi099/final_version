@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="u_continue_as_guest_u">تابع كضيف</string>
+    <string name="occasion">مناسبات</string>
+    <string name="date">تاريخ</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="contact_us">إتصل بنا</string>
+    <string name="login">تسجيل</string>
+    <string name="name">اسم</string>
+    <string name="language">العربية</string>
+    <string name="relation">علاقة</string>
+    <string name="add">إضافة</string>
+    <string name="all_products">جميع المنتجات</string>
+    <string name="email_address">ايميل</string>
+    <string name="reset_password">إعادة تعيين كلمة المرور</string>
+    <string name="password">كلمة السر</string>
+    <string name="language_selection">اختر لغتك</string>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="connect_with">متصل مع</string>
+    <string name="sign_up">اضف ايميلك</string>
+    <string name="forgot_password">هل نسيت كلمة المرور؟</string>
+    <string name="first_name">الاسم الاول</string>
+    <string name="last_name">اسم العائلة ( الثاني )</string>
+    <string name="password_previous">كلمة (السابق)</string>
+    <string name="update_information">تعديل</string>
+    <string name="add_new_address"> اضف عنوان جديد</string>
+    <string name="order_history_and_tracking">تاريخ وتفاصيل الطلبات</string>
+    <string name="add_new_reminder">إضافة تذكير جديد</string>
+    <string name="e_g_mother_father_sister_brother_etc">على سبيل المثال، الأم، الأب، الأخت، الأخ، الخ</string>
+    <string name="address">عنوان</string>
+    <string name="phone">هاتف</string>
+    <string name="save">حفظ</string>
+    <string name="gift_by_ocassions">سِلال هدايا المناسبات</string>
+    <string name="design_your_basket">صَمم سَلتك</string>
+    <string name="shop_now">تسوق الآن</string>
+    <string name="your_shopping_cart_is_empty">لا يوجد هناك اي طلبات في سلة الشراء</string>
+    <string name="all_addresses">جميع العناوين</string>
+    <string name="my_reminder">مذكرة المناسبات</string>
+    <string name="my_address">عنواني</string>
+    <string name="update">تحديث</string>
+    <string name="delete">   الغاء </string>
+    <string name="my_account">حسابي </string>
+    <string name="sign_out">خروج</string>
+
+    <string name="choose_category">اختر الفئة</string>
+    <string name="shopping_cart">سلة الشراء</string>
+
+
+
+    <array name="categories">
+
+        <item>عيد الزواج </item>
+        <item>هدايا للشركات</item>
+        <item>عيد الميلاد</item>
+        <item>ليلة مشاهدة كرة القدم</item>
+        <item>من الكويت لكم</item>
+        <item>سلامتك من كل شر</item>
+        <item>مبروك التخرج</item>
+        <item>احبك </item>
+        <item>انا اسف</item>
+        <item>مولود جديد</item>
+        <item>مبروك الترقية </item>
+        <item>لكل المناسبات</item>
+        <item>تعازينا لكم</item>
+        <item>أفكر فيك</item>
+        <item>يوم الزفاف مفاجأة</item>
+        <item>مبروك الخطبة</item>
+    </array>
+<string name="progress_text">جاري تجهيز الطلب</string>
+    <string name="add_to_cart">أضف إلى السلة</string>
+    <string name="checkout">الدفع</string>
+    <string name="next">التالى</string>
+    <string name="shipment_method">طريقة الشحن
+</string>
+    <string name="select_basket">حدد سلة
+</string>
+    <string name="live_help">عيش ساعد</string>
+    <array name="ids_of_categories">
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+
+    </array>
+</resources>

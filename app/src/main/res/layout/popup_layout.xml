@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height=" 150dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llSortChangePopup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        >
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/turkey"
+            android:layout_marginLeft="16dp"
+            />
+    <TextView
+        android:id="@+id/turDistance"
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text="Turkey"
+        android:layout_gravity="center_vertical"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="16dp"
+        />
+
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        >
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/uae"
+            android:layout_marginLeft="16dp"
+            />
+        <TextView
+            android:id="@+id/uaeDistance"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:text="UAE"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="16dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        >
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/saudi"
+            android:layout_marginLeft="16dp"
+            />
+        <TextView
+            android:id="@+id/ksaDistance"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:text="Saudi"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="16dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        >
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/turkey"
+            android:layout_marginLeft="16dp"
+            />
+        <TextView
+            android:id="@+id/tvDistance"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:text="turkey"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="16dp"
+            />
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>

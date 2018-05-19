@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    >
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="8:00 AM - 10:00 AM"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:textAllCaps="false"
+        android:background="@drawable/time_selecter"
+        android:textColor="@color/color_button"
+        android:id="@+id/first"
+        android:layout_marginTop="16dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="10:00 AM - 12:00 AM"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:textAllCaps="false"
+        android:background="@drawable/time_selecter"
+        android:textColor="@color/color_button"
+        android:id="@+id/second"
+        android:layout_marginTop="16dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="12:00 PM - 2:00 PM"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:textAllCaps="false"
+        android:background="@drawable/time_selecter"
+        android:textColor="@color/color_button"
+        android:id="@+id/third"
+        android:layout_marginTop="16dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="2:00 PM - 4:00 PM"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:textAllCaps="false"
+        android:background="@drawable/time_selecter"
+        android:textColor="@color/color_button"
+        android:id="@+id/fourth"
+        android:layout_marginTop="16dp"
+        /><Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:text="4:00 PM - 6:00 PM"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    android:textAllCaps="false"
+    android:background="@drawable/time_selecter"
+    android:textColor="@color/color_button"
+    android:id="@+id/fifth"
+    android:layout_marginTop="16dp"
+    />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="6:00 PM - 8:00 PM"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:textAllCaps="false"
+        android:background="@drawable/time_selecter"
+        android:textColor="@color/color_button"
+        android:id="@+id/sixth"
+        android:layout_marginTop="16dp"
+        />
+
+
+
+
+</LinearLayout>

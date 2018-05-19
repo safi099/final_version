@@ -1,0 +1,15 @@
+<resources>
+    <color name="buttonColors">#E30513</color>
+
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorAccent">#a00010</color>
+    <color name="grey_10">#e6e6e6</color>
+    <color name="light_green_600">#7CB342</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="grey_80">#37474F</color>
+    <color name="grey_40">#78909C</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="red">#e30614</color>
+    <color name="white">#ffffff</color>
+</resources>

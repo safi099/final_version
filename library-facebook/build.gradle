@@ -1,0 +1,53 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'com.novoda.bintray-release'
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath deps.build.gradlePlugins.kotlin
+        classpath deps.build.gradlePlugins.bintray
+    }
+}
+
+android {
+    compileSdkVersion deps.build.compileSdkVersion
+    buildToolsVersion deps.build.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion deps.build.minSdkVersion
+        targetSdkVersion deps.build.targetSdkVersion
+        versionCode 1
+        versionName "1.0.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    compileOnly project(':library-common')
+    api deps.facebookSdk
+}
+
+android.buildTypes.debug.manifestPlaceholders = [
+    facebookAppId: "189953571452011",
+]
+
+publish {
+    userOrg = 'jaychang0917'
+    groupId = 'com.jaychang'
+    artifactId = 'simpleauth-facebook'
+    publishVersion = '2.0.1'
+    desc = 'A easy to use social authentication android library. (Facebook, Google, Twitter, Instagram)'
+    website = 'https://github.com/jaychang0917/SimpleAuth'
+}

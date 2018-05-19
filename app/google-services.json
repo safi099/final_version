@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1092512102987",
+    "firebase_url": "https://selal-b9bdb.firebaseio.com",
+    "project_id": "selal-b9bdb",
+    "storage_bucket": "selal-b9bdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092512102987:android:05325325b2e78f76",
+        "android_client_info": {
+          "package_name": "com.noumanch.selalf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092512102987-ufb65od1mugb9l51of3he9780vn6u5gd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.noumanch.selalf",
+            "certificate_hash": "d071c383e2c39dffeed11e7c4f441f19b447b181"
+          }
+        },
+        {
+          "client_id": "1092512102987-j8v2hrase5cifkio7r31j0sa621rlkt2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6I0YVyMu35RNrP3tjvUT9D51Jx5hEKwA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092512102987-j8v2hrase5cifkio7r31j0sa621rlkt2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

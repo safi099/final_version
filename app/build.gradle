@@ -1,0 +1,86 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+}
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "27.0.0"
+    defaultConfig {
+        applicationId "com.noumanch.selalf"
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+configurations {
+    all*.exclude group: 'com.android.support', module: 'support-v7'
+
+}
+android.defaultConfig.manifestPlaceholders = [
+        facebookAppId        : "135325373796178",
+        googleWebClientId    : "1092512102987-j8v2hrase5cifkio7r31j0sa621rlkt2.apps.googleusercontent.com",
+        twitterConsumerKey   : "r59jTevJfWg6YDGldRGiks8Rl",
+        twitterConsumerSecret: "MQAQtngew0imjGduM3mEbWE1fdUbGOekYEcvm0ybCoJy5FUrju",
+        instagramClientId    : "76bedc2d27dd4e52841e576d4ce8cc79",
+        instagramClientSecret: "28d91eb23ab440beb55b3a3f112f4bb2",
+        instagramRedirectUri : "https://localhost/oauth2redirect"
+]
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+        exclude group: 'com.android.support', module: 'appcompat'
+        exclude group: 'com.android.support', module: 'support-v4'
+    })
+    compile files('libs/java-json.jar')
+    compile 'com.android.support:appcompat-v7:27.0.0'
+    compile 'com.google.android.gms:play-services-auth:9.0.0'
+    compile 'com.google.android.gms:play-services-plus:9.0.0'
+    compile 'com.paypal.sdk:paypal-android-sdk:2.16.0'
+    //compile 'com.android.volley:volley:1.0.0'
+    compile 'com.github.bumptech.glide:glide:4.3.1'
+    //compile 'com.android.support:design:27.0.0'
+    compile 'com.shehabic.droppy:Droppy:0.6.0@aar'
+    compile 'me.zhanghai.android.materialprogressbar:library:1.4.2'
+    compile 'com.github.apl-devs:appintro:v4.2.2'
+    //compile 'com.android.support:support-v4:27.+'
+    compile 'com.facebook.android:facebook-android-sdk:4.0.1'
+    compile 'com.github.smart-fun:XmlToJson:1.1.1'
+    compile 'com.android.support:cardview-v7:27.+'
+    compile 'com.readystatesoftware.sqliteasset:sqliteassethelper:+'
+    compile 'com.google.dagger:dagger:2.9'
+    compile 'com.jakewharton:butterknife:8.7.0'
+    compile 'com.twitter.sdk.android:twitter-core:3.1.1'
+    compile 'com.jaychang:simpleauth:2.0.1'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'cyd.awesome.android:awesome-material:1.0'
+    compile 'com.afollestad.material-dialogs:commons:0.9.6.0'
+    compile 'com.github.ybq:Android-SpinKit:1.1.0'
+    compile 'com.balysv:material-ripple:1.0.2'
+    compile 'com.afollestad.material-dialogs:core:0.9.6.0'
+    testCompile 'junit:junit:4.12'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.3.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.7.0'
+    compile 'com.aurelhubert:ahbottomnavigation:2.1.0'
+    compile project(':linkedin-sdk')
+}
+repositories {
+    mavenCentral()
+}
+apply plugin: 'com.google.gms.google-services'

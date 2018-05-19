@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SelectDevlieryType"
+    android:background="@android:color/white"
+    >
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/first_image"
+        android:src="@drawable/logo"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/shopnow"
+        android:layout_below="@id/first_image"
+        android:id="@+id/login_layout"
+        android:paddingTop="16dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@android:color/darker_gray"
+            >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:text="@string/shipment_method"
+            android:layout_marginBottom="8dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            />
+        </RelativeLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height= "wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp"
+    android:onClick="deliveryClick"
+
+    >
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deliery_pick"
+        android:layout_gravity="center_vertical"
+        android:onClick="deliveryClick"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/d1"
+        android:padding="2dp"
+        android:onClick="deliveryClick"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="deliveryClick"
+        android:text="Delivery within 24 hours\nKWD 2.000"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="8dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        />
+
+
+
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height= "wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="16dp"
+            android:onClick="storePickClick"
+
+            >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/store_pick"
+                android:layout_gravity="center_vertical"
+                android:onClick="storePickClick"
+                />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/d2"
+                android:onClick="storePickClick"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="storePickClick"
+                android:text="Store pick-up Al-Mirqab, Al Sour Street, Block 2 Discovery Mall\nFree"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                />
+
+
+
+        </LinearLayout>
+        <Button
+            android:layout_width="200dp"
+            android:id="@+id/shopnow"
+            android:layout_height="wrap_content"
+            android:text="@string/shop_now"
+            android:background="@drawable/selector_for_button"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="36dp"
+            android:layout_above="@+id/bottom_navigation"
+            android:layout_centerHorizontal="true"
+            />
+    </LinearLayout>
+
+
+    <com.aurelhubert.ahbottomnavigation.AHBottomNavigation
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom"
+        app:elevation="8dp"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"
+
+        />
+</RelativeLayout>

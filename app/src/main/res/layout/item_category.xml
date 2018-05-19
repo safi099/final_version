@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+
+        android:id="@+id/image_category"
+        android:layout_centerInParent="true"
+
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prodcut Name"
+        android:textSize="18sp"
+         android:id="@+id/category_name"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/image_category"
+        android:layout_marginBottom="4dp"
+    />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@android:color/darker_gray"/>
+    </RelativeLayout>
